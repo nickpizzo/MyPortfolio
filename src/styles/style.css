@@ -3,6 +3,9 @@
 @import "bootstrap.css";
 @import "animate.css";
 
+.test1{background: rgb(10, 254, 113);}
+.test2{background: rgb(91, 67, 102);}
+
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body {
   background-color: #fff;
@@ -39,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-weight: 300;
-  font-size: 60px;
+  font-size: 58px;
   line-height: 80px;
 }
 h2 {
@@ -61,7 +64,7 @@ h3 {
   text-align: center;
 }
 .header-bg {
-  background: url(../images/header-bg1.jpg) center fixed;
+  background: url(../images/disneyhall.jpeg) center fixed;
   background-size: cover;
 }
 .header {
@@ -137,7 +140,14 @@ h3 {
 }
 .portfolio ul li {
   position: relative;
+  /*border: 1px solid;*/
+  /*box-shadow: 0px 0px 0px 0px white;*/
 }
+
+.worksimage {
+  border: 1px solid;
+}
+
 .portfolio ul li .overlay {
   display: none;
   position: absolute;
