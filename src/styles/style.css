@@ -216,6 +216,9 @@ h3 {
   font-size: 23px;
   border: none;
 }
+.social img {
+  margin-top: 25px;
+}
 
 @media (max-width: 1200px){
 		h1{font-size: 50px;line-height: 70px;}
@@ -235,8 +238,7 @@ h3 {
 @media (max-width: 767px){
 	h1 {font-size: 50px;line-height: 90px;}
 	h2{font-size: 25px;margin-bottom: 25px;}
-	.header a.btn{font-size: 12px;margin-right: 18px;}
-	.header a.btn:last-child{margin-right: 0;}
+	.header a.btn{font-size: 12px;}
 	.header .absolute-center {margin-top: 10%;}
 	.prof-links{margin: 60px 0 10px 0; width: 100%;}
 	.connect-icon a{margin:0 10px 0 0;}
@@ -247,4 +249,5 @@ h3 {
 @media (max-width: 600px){
 	h1 {font-size: 27px;line-height: 40px;}
 	.testimonials p{padding: 0;font-size: 14px;line-height: 20px;}
+  .navbuttons a{display: block}
 }
