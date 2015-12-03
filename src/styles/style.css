@@ -3,7 +3,7 @@
 @import "bootstrap.css";
 @import "animate.css";
 
-.test1{background: rgb(10, 254, 113);}
+/*.test1{background: rgb(10, 254, 113);}*/
 .test2{background: rgb(91, 67, 102);}
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
@@ -138,12 +138,19 @@ h3 {
 .aboutme {
   background-color: #eee;
 }
+.img-rounded{
+box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
+}
 .portfolio ul li {
   position: relative;
   /*border: 1px solid;*/
   /*box-shadow: 0px 0px 0px 0px white;*/
 }
-
+.overlay p{
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+}
 .worksimage {
   border: 1px solid;
 }
