@@ -3,9 +3,12 @@
 @import "bootstrap.css";
 @import "animate.css";
 
-/*.test1{background: rgb(10, 254, 113);}*/
-.test2{background: rgb(91, 67, 102);}
-
+.test1 {
+  background-color: pink;
+}
+.test2 {
+  background-color: magenta;
+}
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body {
   background-color: #fff;
@@ -118,28 +121,11 @@ h3 {
   background: rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
-.connect-icon {
-  text-align: right;
-}
-.connect-icon a {
-  float: left;
-  margin-left: 10px;
-}
-.connect-icon a:hover {
-  opacity: 0.5;
-  transition: all 0.5s ease;
-}
-.connect-icon a.behance {
-  margin-top: -10px;
-}
 .prof-links {
   margin: 250px 0 50px 0;
 }
 .aboutme {
   background-color: #eee;
-}
-.img-rounded{
-box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
 }
 .portfolio ul li {
   position: relative;
@@ -154,7 +140,6 @@ box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
 .worksimage {
   border: 1px solid;
 }
-
 .portfolio ul li .overlay {
   display: none;
   position: absolute;
@@ -168,9 +153,6 @@ box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
 .portfolio ul li:hover .overlay {
   display: block;
 }
-
-/*PROJECT DESCRIPTION*/
-
 .portfolio ul li .overlay span {
   position: absolute;
   width: 100%;
@@ -191,8 +173,13 @@ box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
   background: rgba(0, 0, 0, 0.8);
 }
 .footer {
-  background-color: #eee;
-  color: #666;
+  background-color: #323232;
+}
+.footertext{
+  h5 {
+    color: rgb(48, 131, 255);
+    padding-top: 1em;
+  }
 }
 .toTop {
   position: fixed;
@@ -208,25 +195,17 @@ box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
   color: #fff;
   transition: all 0.5s ease;
 }
-.contact-form input, .contact-form textarea {
-  margin-bottom: 15px;
-  font-size: 18px;
-  height: auto;
-  padding: 15px;
-  font-weight: 300;
-  border-radius: 0;
+.profile-usermenu {
+  margin-top: 30px;
 }
-.contact-form input.btn {
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  font-size: 23px;
-  border: none;
+.social {
+  padding-top: 10px;
 }
-.social img {
-  margin-top: 25px;
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  min-height: 460px;
 }
-
 @media (max-width: 1200px){
 		h1{font-size: 50px;line-height: 70px;}
 		h2{font-size: 35px;margin-bottom: 50px;}
@@ -234,25 +213,20 @@ box-shadow: 10px 10px 47px -1px rgba(0,0,0,0.4);
 		.spacer{padding: 70px 0;}
 		.testimonials p{padding: 0 100px;}
 }
-
 @media (max-width: 768px){
 	h1 {font-size: 40px;line-height: 60px;}
 	h2{font-size: 30px;margin-bottom: 30px;}
 	h3{font-size: 25px;margin-bottom: 25px;}
 	.header .absolute-center {margin-top: 30%;}
 }
-
 @media (max-width: 767px){
 	h1 {font-size: 50px;line-height: 90px;}
 	h2{font-size: 25px;margin-bottom: 25px;}
 	.header a.btn{font-size: 12px;}
 	.header .absolute-center {margin-top: 10%;}
 	.prof-links{margin: 60px 0 10px 0; width: 100%;}
-	.connect-icon a{margin:0 10px 0 0;}
-	.social {width: 100%;}
 	.spacer{padding: 30px 0;}
 }
-
 @media (max-width: 600px){
 	h1 {font-size: 27px;line-height: 40px;}
 	.testimonials p{padding: 0;font-size: 14px;line-height: 20px;}

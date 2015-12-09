@@ -5,6 +5,7 @@ import browserSync from 'browser-sync';
 import less from 'gulp-less';
 import ghPages from 'gh-pages';
 import gutil from 'gulp-util';
+import imagemin from 'gulp-imagemin';
 
 const sync = browserSync.create();
 
@@ -40,7 +41,8 @@ gulp.task('styles', () => {
 
 gulp.task('images', () => {
   gulp.src('src/styles/images/*')
-    .pipe(gulp.dest('dist/images'))
+  .pipe(imagemin())
+  .pipe(gulp.dest('dist/images'))
 });
 
 gulp.task('build', ['html', 'script', 'styles', 'images']);

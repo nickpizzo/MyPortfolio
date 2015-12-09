@@ -20,6 +20,7 @@ $(function() {
   });
 });
 
+// scroll to top button
 $(document).ready(function($) {
   $(".scroll").click(function(event) {
     event.preventDefault();
