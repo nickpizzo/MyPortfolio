@@ -3,12 +3,12 @@
 @import "bootstrap.css";
 @import "animate.css";
 
-.test1 {
-  background-color: pink;
-}
-.test2 {
-  background-color: magenta;
-}
+// .test1 {
+//   background-color: pink;
+// }
+// .test2 {
+//   background-color: magenta;
+// }
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body {
   background-color: #fff;
@@ -121,16 +121,11 @@ h3 {
   background: rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
-.prof-links {
-  margin: 250px 0 50px 0;
-}
 .aboutme {
   background-color: #eee;
 }
 .portfolio ul li {
   position: relative;
-  /*border: 1px solid;*/
-  /*box-shadow: 0px 0px 0px 0px white;*/
 }
 .overlay p{
   color: white;
@@ -196,22 +191,44 @@ h3 {
   transition: all 0.5s ease;
 }
 .profile-usermenu {
+  font-size: .8em;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.profile-usermenu-container {
+  width: 264px;
+  margin: 0 auto;
 }
 .social {
   padding-top: 10px;
 }
-/* Profile Content */
+.social a {
+  text-decoration: none;
+  color: rgb(0, 64, 255);
+  text-transform: uppercase;
+  &:hover {color: rgb(203, 91, 0);}
+  &:active {color: black;}
+}
+hr {
+  border: none;
+  background: #CCCCCC;
+  height: 4px;
+}
 .profile-content {
-  padding: 20px;
   min-height: 460px;
+  padding-left: 20px;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 200;
 }
 @media (max-width: 1200px){
 		h1{font-size: 50px;line-height: 70px;}
 		h2{font-size: 35px;margin-bottom: 50px;}
 		h3{font-size: 25px;margin-bottom: 30px;}
 		.spacer{padding: 70px 0;}
-		.testimonials p{padding: 0 100px;}
+    .profile-content{margin-left: 10px;}
 }
 @media (max-width: 768px){
 	h1 {font-size: 40px;line-height: 60px;}
@@ -224,11 +241,9 @@ h3 {
 	h2{font-size: 25px;margin-bottom: 25px;}
 	.header a.btn{font-size: 12px;}
 	.header .absolute-center {margin-top: 10%;}
-	.prof-links{margin: 60px 0 10px 0; width: 100%;}
 	.spacer{padding: 30px 0;}
 }
 @media (max-width: 600px){
 	h1 {font-size: 27px;line-height: 40px;}
-	.testimonials p{padding: 0;font-size: 14px;line-height: 20px;}
   .navbuttons a{display: block}
 }
