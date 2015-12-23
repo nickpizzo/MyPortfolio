@@ -3,13 +3,8 @@
 @import "bootstrap.css";
 @import "animate.css";
 
-// .test1 {
-//   background-color: pink;
-// }
-// .test2 {
-//   background-color: magenta;
-// }
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
 body {
   background-color: #fff;
   font: normal 16px/22px Lato;
@@ -172,7 +167,7 @@ h3 {
 }
 .footertext{
   h5 {
-    color: rgb(48, 131, 255);
+    color: rgb(0, 102, 255);
     padding-top: 1em;
   }
 }
@@ -206,7 +201,7 @@ h3 {
 }
 .social a {
   text-decoration: none;
-  color: rgb(0, 64, 255);
+  color: #1000a7;
   text-transform: uppercase;
   &:hover {color: rgb(203, 91, 0);}
   &:active {color: black;}
@@ -224,11 +219,11 @@ hr {
   font-weight: 200;
 }
 @media (max-width: 1200px){
-		h1{font-size: 50px;line-height: 70px;}
-		h2{font-size: 35px;margin-bottom: 50px;}
-		h3{font-size: 25px;margin-bottom: 30px;}
-		.spacer{padding: 70px 0;}
-    .profile-content{margin-left: 10px;}
+	h1{font-size: 50px;line-height: 70px;}
+	h2{font-size: 35px;margin-bottom: 50px;}
+	h3{font-size: 25px;margin-bottom: 30px;}
+	.spacer{padding: 70px 0;}
+  .profile-content{margin-left: 10px;}
 }
 @media (max-width: 768px){
 	h1 {font-size: 40px;line-height: 60px;}
@@ -245,5 +240,30 @@ hr {
 }
 @media (max-width: 600px){
 	h1 {font-size: 27px;line-height: 40px;}
-  .navbuttons a{display: block}
+  .navbuttons a{display: block;}
+}
+.pay-modal {
+  background: #fff;
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+  display:none;
+  min-width: 350px;
+  min-height: 300px;
+  text-align: center;
+}
+.b-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ddd;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.pay-img {
+  padding-top: 30px;
+  width: 280px;
+  height: 280px;
 }
