@@ -40,7 +40,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('images', () => {
-  gulp.src('src/styles/images/*')
+  gulp.src('src/styles/images/**/*')
   .pipe(imagemin())
   .pipe(gulp.dest('dist/images'))
 });
